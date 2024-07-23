@@ -101,7 +101,6 @@ To get a local copy of this project up and running on your machine, follow these
     ```
 3. **Install the necessary dependencies:**
     ```bash
-    npm install  # If using Node.js
     pip install -r requirements.txt  # If using Python
     ```
 
@@ -115,16 +114,6 @@ Provide instructions and examples for using the code or accessing the tasks docu
 # Example command to run a script
 python script_name.py
 ```
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## Acknowledgements
 
