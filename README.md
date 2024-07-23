@@ -6,7 +6,7 @@ Welcome to the repository documenting the tasks I completed during my internship
 
 - [Introduction](#introduction)
 - [Tasks](#tasks)
-  - [Task 1: Task Name](#task-1-task-name)
+  - [Task 1: Implement Caesar Cipher](#task-1-implement-caesar-cipher)
   - [Task 2: Task Name](#task-2-task-name)
   - [Task 3: Task Name](#task-3-task-name)
 - [Getting Started](#getting-started)
@@ -21,16 +21,38 @@ This repository contains the tasks and projects I completed during my internship
 
 ## Tasks
 
-### Task 1: Task Name
+### Task 1: Implement Caesar Cipher
 
 **Description:**
-- Brief description of the task.
+- The Caesar cipher is a simple encryption technique where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
 
 **Objective:**
-- The main goals and objectives of this task.
+- To create a tool that can encrypt and decrypt text using the Caesar cipher technique.
 
 **Implementation:**
-- Detailed steps and code snippets showing how the task was implemented.
+
+The Caesar cipher implementation involves the following steps:
+
+1. **Importing Prerequisites:**
+   - In this case, we do not have any external libraries to import other than Python's built-in `string` module, but it is not necessary for this specific implementation.
+
+2. **Defining the Function:**
+   - We define a function `caesar_cipher` that takes three parameters: `text` (the input string), `shift` (the number of positions to shift the letters), and `mode` (either 'encrypt' or 'decrypt').
+
+3. **Encrypting/Decrypting the Text:**
+   - The function iterates over each character in the input `text`.
+   - For uppercase letters, it shifts the ASCII value within the range of uppercase letters.
+   - For lowercase letters, it shifts the ASCII value within the range of lowercase letters.
+   - Non-letter characters are added to the result as-is.
+
+
+4. **Adding ASCII Art:**
+   - To give a professional touch to the tool, we add ASCII art displaying "CC-TOOL-KIT" and the author's name.
+
+5. **User Interaction:**
+   - The user is prompted to choose whether they want to encrypt or decrypt the text.
+   - The user is then asked to enter the text and the shift value.
+   - Based on the user's choice, the text is either encrypted or decrypted, and the result is displayed.
 
 **Results:**
 - Any results, screenshots, or output generated from this task.
