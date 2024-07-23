@@ -77,7 +77,7 @@ The password complexity checker performs the following steps:
      - Minimum and maximum length.
      - Presence of uppercase letters, lowercase letters, digits, and special characters.
      - Not being a common password or containing common sequences.
-     - 
+    
 3. **User Interaction:**
    - Prints the ASCII art header.
    - Prompts the user to enter a password and checks its complexity.
