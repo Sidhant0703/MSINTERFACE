@@ -8,7 +8,7 @@ Welcome to the repository documenting the tasks I completed during my internship
 - [Tasks](#tasks)
   - [Task 1: Implement Caesar Cipher](#task-1-implement-caesar-cipher)
   - [Task 2: Password Complexity Checker](#task-2-password-complexity-checker)
-  - [Task 3: Task Name](#task-3-task-name)
+  - [Task 3: Keylooger](#task-3-keylogger)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
