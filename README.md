@@ -11,13 +11,11 @@ Welcome to the repository documenting the tasks I completed during my internship
   - [Task 3: Keylooger](#task-3-keylogger)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
 
-This repository contains the tasks and projects I completed during my internship at MSInterface. Each task is documented with descriptions, code snippets, and any other relevant information to help understand the work done and the results achieved.
+This repository contains the tasks and projects I completed during my internship at MSInterface. Each task is documented with descriptions, and any other relevant information to help understand the work done and the results achieved.
 
 ## Tasks
 
@@ -29,7 +27,7 @@ This repository contains the tasks and projects I completed during my internship
 **Objective:**
 - To create a tool that can encrypt and decrypt text using the Caesar cipher technique.
 
-**Implementation:**
+**Explanation:**
 
 The Caesar cipher implementation involves the following steps:
 
@@ -65,7 +63,7 @@ The Caesar cipher implementation involves the following steps:
 **Objective:**
 - To create a tool that verifies whether a password meets certain complexity requirements to ensure it is secure.
 
-**Implementation:**
+**Explanation:**
 
 The password complexity checker performs the following steps:
 
@@ -133,27 +131,88 @@ To get a local copy of this project up and running on your machine, follow these
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/repositoryname.git
+    git clone https://github.com/Sidhant0703/MSINTERFACE.git
     ```
 2. **Navigate to the project directory:**
     ```bash
-    cd repositoryname
+    cd MSINTERFACE
     ```
 3. **Install the necessary dependencies:**
     ```bash
-    pip install -r requirements.txt  # If using Python
+    pip install -r requirements.txt 
     ```
 
-*(Adjust the steps above according to the specific requirements of your project)*
 
-## Usage
+# Usage
 
-Provide instructions and examples for using the code or accessing the tasks documented in this repository. For example:
+## Task 1: Implement Caesar Cipher
 
-```bash
-# Example command to run a script
-python script_name.py
+### How to Use
+1. Clone the repository to your local machine.
+2. Navigate to the directory containing the Caesar Cipher script.
+3. Run the script using a Python interpreter.
+4. Follow the on-screen prompts to either encrypt or decrypt text.
+    - Enter 'e' to encrypt or 'd' to decrypt.
+    - Enter the text you want to encrypt or decrypt.
+    - Enter the shift value (an integer).
+
+### Example
+```sh
+$ python caesar_cipher.py
+Do you want to (e)ncrypt or (d)ecrypt? e
+Enter the text: Hello, World!
+Enter the shift value: 3
+Encrypted Text: Khoor, Zruog!
 ```
+
+## Task 2: Password Complexity Checker
+
+### How to Use
+1. Clone the repository to your local machine.
+2. Navigate to the directory containing the Password Complexity Checker script.
+3. Run the script using a Python interpreter.
+4. Enter the password you want to check when prompted.
+
+### Example
+```sh
+$ python password_complexity_checker.py
+  ____   _    ____ ____         ____ _   _ _____ ____ _  _______ ____  
+ |  _ \ / \  / ___/ ___|       / ___| | | | ____/ ___| |/ / ____|  _ \ 
+ | |_) / _ \ \___ \___ \ _____| |   | |_| |  _|| |   | ' /|  _| | |_) |
+ |  __/ ___ \ ___) |__) |_____| |___|  _  | |__| |___| . \| |___|  _ < 
+ |_| /_/   \_\____/____/       \____|_| |_|_____\____|_|\_\_____|_| \_\                                                                                         
+                     Password Complexity Checker by Sidhanta Palei
+
+Enter the password to check: MySecurePassword123!
+Password is complex enough.
+```
+
+## Task 3: Keylogger
+
+### How to Use
+1. Clone the repository to your local machine.
+2. Navigate to the directory containing the Keylogger script.
+3. Run the script using a Python interpreter.
+4. The keylogger will start capturing keystrokes and taking periodic screenshots.
+5. To stop the keylogger, press the `esc` key.
+
+### Example
+```sh
+$ python keylogger.py
+   _  _________   ___     ___   ____  ____ _____ ____  
+ | |/ / ____\ \ / / |   / _ \ / ___|/ ___| ____|  _ \ 
+ | ' /|  _|  \ V /| |  | | | | |  _| |  _|  _| | |_) |
+ | . \| |___  | | | |__| |_| | |_| | |_| | |___|  _ < 
+ |_|\_\_____| |_| |_____\___/ \____|\____|_____|_| \_\
+                                                      
+            Keylogger Tool by Sidhanta Palei
+
+# Keylogger is running... Press `esc` to stop.
+```
+- The keystrokes will be logged to `keylogger_data/keylog.txt`.
+- Screenshots will be saved in `keylogger_data/screenshots/` every 10 minutes.
+```
+
 
 ## Acknowledgements
 
