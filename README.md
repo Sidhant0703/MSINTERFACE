@@ -217,10 +217,12 @@ $ python keylogger.py
             Keylogger Tool by Sidhanta Palei
 
 # Keylogger is running... Press `esc` to stop.
-
+```
+```
 - The keystrokes will be logged to `keylogger_data/keylog.txt`.
 - Screenshots will be saved in `keylogger_data/screenshots/` every 10 minutes.
 ```
+
 ### Acknowledgements
 
 - [MSInterface](https://msinterface.in/)
