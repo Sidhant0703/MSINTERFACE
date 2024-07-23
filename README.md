@@ -85,21 +85,47 @@ The password complexity checker performs the following steps:
 **Results:**
 ![Alt text](Images/pass-checker.png)
 
-### Task 3: Task Name
+## Task 3: Keylogger
 
-**Description:**
-- Brief description of the task.
+### Description
+This task involves creating a keylogger that captures keystrokes and periodic screenshots, saving them to a dedicated directory. The tool is designed to be ready for use by others, ensuring it creates necessary directories and files automatically.
 
-**Objective:**
-- The main goals and objectives of this task.
+### Objective
+To create a keylogger tool that logs keystrokes and takes periodic screenshots, storing them in a structured manner.
 
-**Implementation:**
-- Detailed steps and code snippets showing how the task was implemented.
+### Explanation
+
+1. **ASCII Art Header**:
+    - The `ascii_art` variable contains an ASCII art header that will be printed when the program starts, identifying the tool.
+
+2. **Configuration**:
+    - `BASE_DIR`, `LOG_FILE`, and `SCREENSHOT_DIR` are configured to set the paths for storing log files and screenshots.
+
+3. **Global Stop Flag**:
+    - `stop_flag` is a threading event used to signal when the keylogger should stop running.
+
+4. **Setup Directories and Files**:
+    - `setup_directories_and_files()` creates the necessary directories and log file if they do not already exist.
+
+5. **Setup Logging**:
+    - `setup_logging(log_file)` configures the logging module to write logs to `keylog.txt`.
+
+6. **Capture Screenshots**:
+    - `capture_screenshot(screenshot_dir)` is a function that captures a screenshot every 10 minutes and saves it to the specified directory. This function runs in a separate thread to ensure it operates concurrently with keylogging.
+
+7. **Key Press and Release Events**:
+    - `on_press(key)` and `on_release(key)` handle key press and release events, logging each keystroke. If the `esc` key is released, `on_release` sets the `stop_flag`, which signals the program to stop.
+
+8. **Main Function**:
+    - `main()` prints the ASCII art header, sets up directories and logging, starts the screenshot capturing thread, and initiates the keylogger using `pynput`'s `keyboard.Listener`.
+
+9. **Program Entry Point**:
+    - The `if __name__ == "__main__":` block ensures the `main()` function is called when the script is executed, starting the keylogger.
+
+This implementation ensures the keylogger is ready for use by others, with directories and files being created automatically and clear logging of keystrokes and screenshots. The program can be stopped by pressing the `esc` key.
 
 **Results:**
-- Any results, screenshots, or output generated from this task.
-
-*(Repeat the above structure for all the tasks completed during the internship)*
+![Alt text](Images/keylogger.png)
 
 ## Getting Started
 
