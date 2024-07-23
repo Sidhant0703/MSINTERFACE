@@ -159,6 +159,15 @@ To get a local copy of this project up and running on your machine, follow these
 ### Example
 ```sh
 $ python caesar_cipher.py
+
+   ____ ____    _____ ___   ___  _          _  _____ _____ 
+  / ___/ ___|  |_   _/ _ \ / _ \| |        | |/ /_ _|_   _|
+ | |  | |   _____| || | | | | | | |   _____| ' / | |  | |  
+ | |__| |__|_____| || |_| | |_| | |__|_____| . \ | |  | |  
+  \____\____|    |_| \___/ \___/|_____|    |_|\_\___| |_|  
+                                                           
+          Caesar Cipher Tool by Sidhanta Palei
+
 Do you want to (e)ncrypt or (d)ecrypt? e
 Enter the text: Hello, World!
 Enter the shift value: 3
