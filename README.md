@@ -7,7 +7,7 @@ Welcome to the repository documenting the tasks I completed during my internship
 - [Introduction](#introduction)
 - [Tasks](#tasks)
   - [Task 1: Implement Caesar Cipher](#task-1-implement-caesar-cipher)
-  - [Task 2: Task Name](#task-2-task-name)
+  - [Task 2: Password Complexity Checker](#task-2-password-complexity-checker)
   - [Task 3: Task Name](#task-3-task-name)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -57,19 +57,33 @@ The Caesar cipher implementation involves the following steps:
 **Results:**
 ![Alt text](Images/caesar_cipher_result.png)
 
-### Task 2: Task Name
+### Task 2: Password Complexity Checker
 
 **Description:**
-- Brief description of the task.
+- This tool checks the complexity of a given password based on multiple criteria, including length, character types, and common passwords. It provides feedback to ensure that the password meets the required security standards.
 
 **Objective:**
-- The main goals and objectives of this task.
+- To create a tool that verifies whether a password meets certain complexity requirements to ensure it is secure.
 
 **Implementation:**
-- Detailed steps and code snippets showing how the task was implemented.
+
+The password complexity checker performs the following steps:
+
+1. **ASCII Art Header:**
+   - Adds a professional header to the tool.
+
+2. **Defining the Function:**
+   - A function `check_password_complexity` checks if the password meets several criteria:
+     - Minimum and maximum length.
+     - Presence of uppercase letters, lowercase letters, digits, and special characters.
+     - Not being a common password or containing common sequences.
+     - 
+3. **User Interaction:**
+   - Prints the ASCII art header.
+   - Prompts the user to enter a password and checks its complexity.
 
 **Results:**
-- Any results, screenshots, or output generated from this task.
+![Alt text](Images/pass-checker.png)
 
 ### Task 3: Task Name
 
