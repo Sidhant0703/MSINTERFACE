@@ -106,4 +106,4 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Acknowledgements
 
-- [MSInterface]([https://msinterface.in/])
+- [MSInterface](https://msinterface.in/)
